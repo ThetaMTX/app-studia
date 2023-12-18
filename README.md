@@ -1,6 +1,6 @@
 # Studia App
 
-This is a simple web application that serves as an API endpoint and communicates with a Python script to fetch medication information from a MySQL database.
+This is a simple web application that serves as an API endpoint and communicates with a Python script to fetch medication information from a SQL database (freesqldatabase).
 
 ## Installation
 
