@@ -12,7 +12,7 @@ This is a simple web application that serves as an API endpoint and communicates
 ```
 npm install
 ```
-##Install python packages:
+## Install python packages:
 ```
 pip install mysql-connector-python
 ```
