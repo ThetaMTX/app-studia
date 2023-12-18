@@ -31,8 +31,8 @@ npm start
 ```
 
 # Project Structure
-## server.js: The Node.js server file that defines the API endpoints and communicates with the Python script.
-## script.py: The Python script that connects to the MySQL database to fetch medication information.
+server.js: The Node.js server file that defines the API endpoints and communicates with the Python script.
+script.py: The Python script that connects to the MySQL database to fetch medication information.
 
 # Dependencies
 ```
