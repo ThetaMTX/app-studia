@@ -12,6 +12,13 @@ This is a simple web application that serves as an API endpoint and communicates
 ```
 npm install
 ```
+##Install python packages:
+```
+pip install mysql-connector-python
+```
+```
+pip install request
+```
 ## Start the server:
 ```
 npm start
@@ -24,9 +31,16 @@ npm start
 /api/medication: This endpoint communicates with the included Python script (script.py). It takes a JSON payload with a medication property and fetches the corresponding medication description from the SQL database.
 
 ## Example:
+### Input
 ```
 {
   "medication": "Apap"
+}
+```
+### Output
+```
+{
+    "result": "APAP (acetaminophen) is a common pain reliever and fever reducer that centrally inhibits the enzyme cyclooxygenase. Excessive use can cause severe liver damage, especially in individuals with liver conditions or regular alcohol consumption.\r\n"
 }
 ```
 
