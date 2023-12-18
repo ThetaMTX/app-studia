@@ -21,7 +21,7 @@ npm start
 
 /api: This endpoint returns a simple JSON response to indicate that it is the API endpoint.
 
-/api/medication: This endpoint communicates with the included Python script (script.py). It takes a JSON payload with a medication property and fetches the corresponding medication description from the MySQL database.
+/api/medication: This endpoint communicates with the included Python script (script.py). It takes a JSON payload with a medication property and fetches the corresponding medication description from the SQL database.
 
 ## Example:
 ```
