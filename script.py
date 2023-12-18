@@ -26,7 +26,7 @@ if name:
             result = cursor.fetchone()
 
             if result:
-                print("Description:", result[0])
+                print(result[0])
             else:
                 print(f"No matching records found for name='{name}'")
 
