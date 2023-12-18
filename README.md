@@ -43,4 +43,4 @@ MySQL Connector: Python library for connecting to MySQL
 ```
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the [Licencji MIT](LICENSE).
